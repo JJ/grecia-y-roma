@@ -14103,7 +14103,7 @@
        y="456.36238302496">Maratón</text>
 </g>
 
-<circle id="circle_Cnosos" r="3" cy="720" cx="690"/>
+<circle id="circle_Cnosos" r="3" cy="720" cx="690" fill="blue"/>
 <g  id="g_Cnosos"
     transform="translate(0.3,0.3)">
     <text
