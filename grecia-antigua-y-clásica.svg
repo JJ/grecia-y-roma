@@ -14162,6 +14162,18 @@
     transform="translate(1,10)">Megara</text>
 </g>
 
+<circle id="circle_Eretria" r="3" cy="416.435464605527" cx="509.244403952696"/>
+<g  id="g_Eretria"
+    transform="translate(0.3,0.3)">
+    <text
+       style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
+       id="textEretria"
+       font-size="12"
+       x="509.244403952696"
+       y="416.435464605527">Eretria</text>
+</g>
+
+
     <!-- Final añadido por mi -->
     
     <circle
