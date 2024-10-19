@@ -14173,6 +14173,16 @@
        y="416.435464605527">Eretria</text>
 </g>
 
+<circle id="circle_Thera" r="3" cy="600" cx="687" fill="purple"/>
+<g  id="g_Thera"
+    transform="translate(0.3,0.3)">
+    <text
+       style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
+       id="textThera"
+       font-size="12"
+       x="687"
+       y="600">Thera</text>
+</g>
 
     <!-- Final añadido por mi -->
     
