@@ -14114,6 +14114,19 @@
        y="720">Cnosos</text>
 </g>
 
+<circle id="circle_Platea" r="3" cy="439.152742852543" cx="462.751246321185" fill="red"/>
+<g  id="g_Platea"
+    transform="translate(0.3,0.3)">
+    <text
+       style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
+       id="textPlatea"
+       font-size="12"
+       x="462.751246321185"
+       y="439.152742852543"
+    transform="translate(-10,10)">Platea</text>
+</g>
+
+
     <!-- Final añadido por mi -->
     
     <circle
