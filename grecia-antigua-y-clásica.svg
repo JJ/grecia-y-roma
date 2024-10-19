@@ -14126,18 +14126,29 @@
     transform="translate(-10,10)">Platea</text>
 </g>
 
-<circle id="circle_Lesbos" r="3" cy="302.259160821075" cx="700"/>
+<circle id="circle_Lesbos" r="4" cy="290" cx="690" fill="purple" stroke='purple'/>
 <g  id="g_Lesbos"
     transform="translate(0.3,0.3)">
     <text
        style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
        id="textLesbos"
        font-size="12"
-       x="700"
-       y="302.259160821075"
+       x="690"
+       y="290"
     transform="translate(-10,10)">Lesbos</text>
 </g>
 
+<circle id="circle_Mitilene" r="3" cy="303" cx="715"/>
+<g  id="g_Lesbos"
+    transform="translate(0.3,0.3)">
+    <text
+       style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
+       id="textLesbos"
+       font-size="12"
+       x="715"
+       y="303"
+    transform="translate(-10,10)">Mitilene</text>
+</g>
 
     <!-- Final añadido por mi -->
     
