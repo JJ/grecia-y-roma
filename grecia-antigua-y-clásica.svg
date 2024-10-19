@@ -14103,6 +14103,17 @@
        y="456.36238302496">Maratón</text>
 </g>
 
+<circle id="circle_Cnosos" r="3" cy="720" cx="690"/>
+<g  id="g_Cnosos"
+    transform="translate(0.3,0.3)">
+    <text
+       style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
+       id="textCnosos"
+       font-size="12"
+       x="690"
+       y="720">Cnosos</text>
+</g>
+
     <!-- Final añadido por mi -->
     
     <circle
