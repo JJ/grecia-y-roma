@@ -14150,6 +14150,18 @@
     transform="translate(-10,10)">Mitilene</text>
 </g>
 
+<circle id="circle_Megara" r="3" cy="473.743069611216" cx="465.084546053621"/>
+<g  id="g_Megara"
+    transform="translate(0.3,0.3)">
+    <text
+       style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
+       id="textMegara"
+       font-size="12"
+       x="465.084546053621"
+       y="473.743069611216"
+    transform="translate(1,10)">Megara</text>
+</g>
+
     <!-- Final añadido por mi -->
     
     <circle
@@ -14212,7 +14224,7 @@
        style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
        id="text1904"
        font-size="12"
-       x="443.06543"
+       x="450"
        y="465.1806">Eleusis</text>
     <text
        style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
