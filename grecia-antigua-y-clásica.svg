@@ -14126,6 +14126,18 @@
     transform="translate(-10,10)">Platea</text>
 </g>
 
+<circle id="circle_Lesbos" r="3" cy="302.259160821075" cx="700"/>
+<g  id="g_Lesbos"
+    transform="translate(0.3,0.3)">
+    <text
+       style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
+       id="textLesbos"
+       font-size="12"
+       x="700"
+       y="302.259160821075"
+    transform="translate(-10,10)">Lesbos</text>
+</g>
+
 
     <!-- Final añadido por mi -->
     
