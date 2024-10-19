@@ -14081,7 +14081,7 @@
 
 
     <!-- Añadido por mi -->
-    <circle id="circle_Micenas" r="3" cy="511.010159844519" cx="408.798347006001" fill='red'/>
+    <circle id="circle_Micenas" r="3" cy="511.010159844519" cx="408.798347006001" fill='blue'/>
 <g  id="g_Micenas"
     transform="translate(0.3,0.3)">
     <text
@@ -14091,6 +14091,18 @@
        x="408.798347006001"
        y="511.010159844519">Micenas</text>
 </g>
+
+<circle id="circle_Maratón" r="3" cy="456.36238302496" cx="526.156794149125" fill="red"/>
+<g  id="g_Maratón"
+    transform="translate(0.3,0.3)">
+    <text
+       style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
+       id="textMaratón"
+       font-size="12"
+       x="526.156794149125"
+       y="456.36238302496">Maratón</text>
+</g>
+
     <!-- Final añadido por mi -->
     
     <circle
