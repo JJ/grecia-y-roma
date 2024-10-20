@@ -15,8 +15,18 @@
             display: block;
             margin-bottom: 5px;
         }
+        // Put question select by the right hand side of the question label and not below it
+        .question {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .question label {
+            margin-right: 10px;
+            margin-bottom: 0;
+        }
         .question select {
-            width: 100%;
+            flex-grow: 1;
             padding: 5px;
         }
         .submit-btn {
