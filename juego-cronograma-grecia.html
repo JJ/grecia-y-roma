@@ -38,93 +38,79 @@
     <h1>Juego Cronograma Grecia</h1>
     <form id="quizForm">
         <div id="questionsContainer"></div>
-        <button type="button" class="submit-btn" onclick="checkAnswers()">Enviar</button>
+        <button type="button" class="submit-btn" onclick="checkAnswers()">Evaluar</button>
     </form>
     <script>
         const data = {
-            "EDAD DEL BRONCE": [
-                {"Minoico Antiguo o Palacial Primitivo": "3200-2100 a. C"},
-                {"Minoico Medio o Palacial Tardío": "2100-1580 a. C"},
-                {"Minoico Reciente": "1580-1200 a. C"},
-                {"Cicládico Antiguo": "3000-1900 a. C"},
-                {"Cicládico Medio": "1900-1550 a. C"},
-                {"Cicládico Reciente": "1550-1100 a. C"},
-                {"Heládico Antiguo": "2600-1950 a. C"},
-                {"Heládico Medio": "1950-1580 a. C"},
-                {"Heládico Reciente o Micénico": "1580-1100 a. C"}
-            ],
-            "ÉPOCA OSCURA": [
-                {"Desaparición de las formas sociales y políticas micénicas": null},
-                {"Desaparición escritura": null},
-                {"Desaparición construcciones en piedra": null},
-                {"Descenso demográfico": null},
-                {"Reducción nº asentamientos": null},
-                {"Formación del Oikos homérico": null},
-                {"Cerámica geométrica": null},
-                {"Primeros movimientos migratorios": "1050-1000 a. C"}
-            ],
-            "ÉPOCA ARCAICA": [
-                {"Aparición de la polis (sinoicismo)": null},
-                {"Gran colonización griega": "750-580 a. C"},
-                {"Nuevas formas políticas (tiranías)": null},
-                {"Aparición de la escritura y la moneda": null},
-                {"Nuevas técnicas militares (hoplitas)": null},
-                {"Codificación del derecho": null},
-                {"Conjuración de Cilón": "630 a. C"},
-                {"Leyes de Dracón": "621 a. C"},
-                {"Arcontado de Solón": "594-560 a. C"},
-                {"Tiranía de Pisístrato": "560-527 a. C"},
-                {"Tiranía de Hipias e Hiparco": "527-510 a. C"},
-                {"Arcontado de Clístenes": "509-508 a. C"}
-            ],
-            "ÉPOCA CLÁSICA": [
-    { "Guerras Médicas": "499-479 a. C" },
-    { "Pentecontecia y el imperio marítimo ateniense": "478-431 a. C" },
-    { "Democracia radical de Atenas": "s. V a. C." },
-    { "Guerra  del Peloponeso": "431-404 a. C" }
-  ],
-  "CRISIS DE LA POLIS": [
+            "EDAD DEL BRONCE": {
+                "Minoico Antiguo o Palacial Primitivo": "3200-2100 a. C",
+                "Minoico Medio o Palacial Tardío": "2100-1580 a. C",
+                "Minoico Reciente": "1580-1200 a. C",
+                "Cicládico Antiguo": "3000-1900 a. C",
+                "Cicládico Medio": "1900-1550 a. C",
+                "Cicládico Reciente": "1550-1100 a. C",
+                "Heládico Antiguo": "2600-1950 a. C",
+                "Heládico Medio": "1950-1580 a. C",
+                "Heládico Reciente o Micénico": "1580-1100 a. C"
+            },
+            "ÉPOCA OSCURA": {
+                "Desaparición de las formas sociales y políticas micénicas": null,
+                "Desaparición escritura": null,
+                "Desaparición construcciones en piedra": null,
+                "Descenso demográfico": null,
+                "Reducción nº asentamientos": null,
+                "Formación del Oikos homérico": null,
+                "Cerámica geométrica": null,
+                "Primeros movimientos migratorios": "1050-1000 a. C"
+            },
+            "ÉPOCA ARCAICA": {
+                "Aparición de la polis (sinoicismo)": null,
+                "Gran colonización griega": "750-580 a. C",
+                "Nuevas formas políticas (tiranías)": null,
+                "Aparición de la escritura y la moneda": null,
+                "Nuevas técnicas militares (hoplitas)": null,
+                "Codificación del derecho": null,
+                "Conjuración de Cilón": "630 a. C",
+                "Leyes de Dracón": "621 a. C",
+                "Arcontado de Solón": "594-560 a. C",
+                "Tiranía de Pisístrato": "560-527 a. C",
+                "Tiranía de Hipias e Hiparco": "527-510 a. C",
+                "Arcontado de Clístenes": "509-508 a. C"
+            },
+            "ÉPOCA CLÁSICA": {
+                "Guerras Médicas": "499-479 a. C",
+                "Pentecontecia y el imperio marítimo ateniense": "478-431 a. C",
+                "Democracia radical de Atenas": "s. V a. C.",
+                "Guerra del Peloponeso": "431-404 a. C"
+            },
+"CRISIS DE LA POLIS": {
+    "Hegemonía Espartana": "404-378 a. C",
+    "Segunda Confederación Ateniense": "378-371 a. C",
+    "Hegemonía Tebana": "371-362 a. C"
+},
+  "CONQUISTA MACEDÓNICA": {
+        "Filipo II": "359-336 a. C",
+        "Liga de Corinto": "337 a. C",
+        "Alejandro Magno": "336-323 a. C",
+        "Conquista de Oriente por Alejandro Magno": "334-323 a. C"
+    }
+  ,
 
-    { "Hegemonía Espartana": "404-378 a. C" },
-
-    { "Segunda Confederación Ateniense": "378-371 a. C" },
-
-    { "Hegemonía Tebana": "371-362 a. C" }
-
-  ],
-
-  "CONQUISTA MACEDÓNICA": [
-
-    { "Filipo II": "359-336 a. C" },
-
-    { "Liga de Corinto": "337 a. C" },
-
-    { "Alejandro Magno": "336-323 a. C" },
-
-    { "Conquista de Oriente por Alejandro Magno": "334-323 a. C" }
-
-  ],
-
-  "MUNDO HELENÍSTICO": [
-
-    { "Desmembración del Imperio de Alejandro": "323-273 a. C" },
-
-    { "Continuas luchas entre los reinos helenísticos": null },
-
-    { "Existencia de reinos independientes": null }
-
-  ]
-
-        } ;
+"MUNDO HELENÍSTICO": {
+    "Desmembración del Imperio de Alejandro": "323-273 a. C",
+    "Continuas luchas entre los reinos helenísticos": null,
+    "Existencia de reinos independientes": null
+}
+}
 
         const periods = Object.keys(data);
         const questions = [];
 
         periods.forEach(period => {
-            data[period].forEach(event => {
-                const eventName = Object.keys(event)[0];
-                questions.push({ event: eventName, period: period });
-            });
+            const events = data[period];
+            for (const event in events) {
+            questions.push({ event: event, period: period, date: events[event] });
+            }
         });
 
         function shuffle(array) {
@@ -144,7 +130,7 @@
             questionDiv.className = 'question';
             questionDiv.innerHTML = `
                 <label for="question${index}">${question.event}</label>
-                <select id="question${index}" data-answer="${question.period}">
+                <select id="question${index}" data-answer="${question.period}" data-date="${question.date}">
                     <option value="">Selecciona un periodo</option>
                     ${periods.map(period => `<option value="${period}">${period}</option>`).join('')}
                 </select>
@@ -154,13 +140,18 @@
 
         function checkAnswers() {
             let score = 0;
-            first15Questionsquestions.forEach((question, index) => {
+            first15Questions.forEach((question, index) => {
                 const select = document.getElementById(`question${index}`);
                 if (select.value === select.getAttribute('data-answer')) {
+                    select.previousElementSibling.style.backgroundColor = 'lightgreen';
+                    select.previousElementSibling.style.padding = '5px';
+                    select.previousElementSibling.style.borderRadius = '5px';
+                    select.previousElementSibling.innerHTML += ` - ${select.getAttribute('data-date')}`;
+
                     score++;
                 }
             });
-            alert(`Tu puntuación es ${score} de ${questions.length}`);
+            alert(`Tu puntuación es ${score} de ${first15Questions.length}`);
         }
     </script>
 </body>
