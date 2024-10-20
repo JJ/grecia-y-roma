@@ -9,21 +9,14 @@
             font-family: Arial, sans-serif;
         }
         .question {
-            margin-bottom: 20px;
-        }
-        .question label {
-            display: block;
-            margin-bottom: 5px;
-        }
-        // Put question select by the right hand side of the question label and not below it
-        .question {
             display: flex;
             align-items: center;
             margin-bottom: 20px;
         }
         .question label {
             margin-right: 10px;
-            margin-bottom: 0;
+            margin-bottom: 5px;
+            display: flex;
         }
         .question select {
             flex-grow: 1;
@@ -75,7 +68,7 @@
                 {"Gran colonización griega": "750-580 a. C"},
                 {"Nuevas formas políticas (tiranías)": null},
                 {"Aparición de la escritura y la moneda": null},
-                {"Nuevas técnicas militares (holplitas)": null},
+                {"Nuevas técnicas militares (hoplitas)": null},
                 {"Codificación del derecho": null},
                 {"Conjuración de Cilón": "630 a. C"},
                 {"Leyes de Dracón": "621 a. C"},
@@ -83,8 +76,46 @@
                 {"Tiranía de Pisístrato": "560-527 a. C"},
                 {"Tiranía de Hipias e Hiparco": "527-510 a. C"},
                 {"Arcontado de Clístenes": "509-508 a. C"}
-            ]
-        };
+            ],
+            "ÉPOCA CLÁSICA": [
+    { "Guerras Médicas": "499-479 a. C" },
+    { "Pentecontecia y el imperio marítimo ateniense": "478-431 a. C" },
+    { "Democracia radical de Atenas": "s. V a. C." },
+    { "Guerra  del Peloponeso": "431-404 a. C" }
+  ],
+  "CRISIS DE LA POLIS": [
+
+    { "Hegemonía Espartana": "404-378 a. C" },
+
+    { "Segunda Confederación Ateniense": "378-371 a. C" },
+
+    { "Hegemonía Tebana": "371-362 a. C" }
+
+  ],
+
+  "CONQUISTA MACEDÓNICA": [
+
+    { "Filipo II": "359-336 a. C" },
+
+    { "Liga de Corinto": "337 a. C" },
+
+    { "Alejandro Magno": "336-323 a. C" },
+
+    { "Conquista de Oriente por Alejandro Magno": "334-323 a. C" }
+
+  ],
+
+  "MUNDO HELENÍSTICO": [
+
+    { "Desmembración del Imperio de Alejandro": "323-273 a. C" },
+
+    { "Continuas luchas entre los reinos helenísticos": null },
+
+    { "Existencia de reinos independientes": null }
+
+  ]
+
+        } ;
 
         const periods = Object.keys(data);
         const questions = [];
@@ -104,10 +135,11 @@
         }
 
         shuffle(questions);
+        const first15Questions = questions.slice(0, 15);
 
         const questionsContainer = document.getElementById('questionsContainer');
 
-        questions.forEach((question, index) => {
+        first15Questions.forEach((question, index) => {
             const questionDiv = document.createElement('div');
             questionDiv.className = 'question';
             questionDiv.innerHTML = `
@@ -122,7 +154,7 @@
 
         function checkAnswers() {
             let score = 0;
-            questions.forEach((question, index) => {
+            first15Questionsquestions.forEach((question, index) => {
                 const select = document.getElementById(`question${index}`);
                 if (select.value === select.getAttribute('data-answer')) {
                     score++;
