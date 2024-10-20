@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Cronograma Grecia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .question label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .question select {
+            width: 100%;
+            padding: 5px;
+        }
+        .submit-btn {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Juego Cronograma Grecia</h1>
+    <form id="quizForm">
+        <div id="questionsContainer"></div>
+        <button type="button" class="submit-btn" onclick="checkAnswers()">Enviar</button>
+    </form>
+    <script>
+        const data = {
+            "EDAD DEL BRONCE": [
+                {"Minoico Antiguo o Palacial Primitivo": "3200-2100 a. C"},
+                {"Minoico Medio o Palacial Tardío": "2100-1580 a. C"},
+                {"Minoico Reciente": "1580-1200 a. C"},
+                {"Cicládico Antiguo": "3000-1900 a. C"},
+                {"Cicládico Medio": "1900-1550 a. C"},
+                {"Cicládico Reciente": "1550-1100 a. C"},
+                {"Heládico Antiguo": "2600-1950 a. C"},
+                {"Heládico Medio": "1950-1580 a. C"},
+                {"Heládico Reciente o Micénico": "1580-1100 a. C"}
+            ],
+            "ÉPOCA OSCURA": [
+                {"Desaparición de las formas sociales y políticas micénicas": null},
+                {"Desaparición escritura": null},
+                {"Desaparición construcciones en piedra": null},
+                {"Descenso demográfico": null},
+                {"Reducción nº asentamientos": null},
+                {"Formación del Oikos homérico": null},
+                {"Cerámica geométrica": null},
+                {"Primeros movimientos migratorios": "1050-1000 a. C"}
+            ],
+            "ÉPOCA ARCAICA": [
+                {"Aparición de la polis (sinoicismo)": null},
+                {"Gran colonización griega": "750-580 a. C"},
+                {"Nuevas formas políticas (tiranías)": null},
+                {"Aparición de la escritura y la moneda": null},
+                {"Nuevas técnicas militares (holplitas)": null},
+                {"Codificación del derecho": null},
+                {"Conjuración de Cilón": "630 a. C"},
+                {"Leyes de Dracón": "621 a. C"},
+                {"Arcontado de Solón": "594-560 a. C"},
+                {"Tiranía de Pisístrato": "560-527 a. C"},
+                {"Tiranía de Hipias e Hiparco": "527-510 a. C"},
+                {"Arcontado de Clístenes": "509-508 a. C"}
+            ]
+        };
+
+        const periods = Object.keys(data);
+        const questions = [];
+
+        periods.forEach(period => {
+            data[period].forEach(event => {
+                const eventName = Object.keys(event)[0];
+                questions.push({ event: eventName, period: period });
+            });
+        });
+
+        function shuffle(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        shuffle(questions);
+
+        const questionsContainer = document.getElementById('questionsContainer');
+
+        questions.forEach((question, index) => {
+            const questionDiv = document.createElement('div');
+            questionDiv.className = 'question';
+            questionDiv.innerHTML = `
+                <label for="question${index}">${question.event}</label>
+                <select id="question${index}" data-answer="${question.period}">
+                    <option value="">Selecciona un periodo</option>
+                    ${periods.map(period => `<option value="${period}">${period}</option>`).join('')}
+                </select>
+            `;
+            questionsContainer.appendChild(questionDiv);
+        });
+
+        function checkAnswers() {
+            let score = 0;
+            questions.forEach((question, index) => {
+                const select = document.getElementById(`question${index}`);
+                if (select.value === select.getAttribute('data-answer')) {
+                    score++;
+                }
+            });
+            alert(`Tu puntuación es ${score} de ${questions.length}`);
+        }
+    </script>
+</body>
+</html>
