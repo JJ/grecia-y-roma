@@ -1,0 +1,95 @@
+{
+  "EDAD DEL BRONCE": [
+    {
+      "Minoico Antiguo o Palacial Primitivo": "3200-2100 a. C"
+    },
+    {
+      "Minoico Medio o Palacial Tardío": "2100-1580 a. C"
+    },
+    {
+      "Minoico Reciente": "1580-1200 a. C"
+    },
+    {
+      "Cicládico Antiguo": "3000-1900 a. C"
+    },
+    {
+      "Cicládico Medio": "1900-1550 a. C"
+    },
+    {
+      "Cicládico Reciente": "1550-1100 a. C"
+    },
+    {
+      "Heládico Antiguo": "2600-1950 a. C"
+    },
+    {
+      "Heládico Medio": "1950-1580 a. C"
+    },
+    {
+      "Heládico Reciente o Micénico": "1580-1100 a. C"
+    }
+  ],
+  "ÉPOCA OSCURA": [
+    {
+      "Desaparición de las formas sociales y políticas micénicas": null
+    },
+    {
+      "Desaparición escritura": null
+    },
+    {
+      "Desaparición construcciones en piedra": null
+    },
+    {
+      "Descenso demográfico": null
+    },
+    {
+      "Reducción nº asentamientos": null
+    },
+    {
+      "Formación del Oikos homérico": null
+    },
+    {
+      "Cerámica geométrica": null
+    },
+    {
+      "Primeros movimientos migratorios": "1050-1000 a. C"
+    }
+  ],
+  "ÉPOCA ARCAICA": [
+    {
+      "Aparición de la polis (sinoicismo)": null
+    },
+    {
+      "Gran colonización griega": "750-580 a. C"
+    },
+    {
+      "Nuevas formas políticas (tiranías)": null
+    },
+    {
+      "Aparición de la escritura y la moneda": null
+    },
+    {
+      "Nuevas técnicas militares (holplitas)": null
+    },
+    {
+      "Codificación del derecho": null
+    },
+    {
+      "Conjuración de Cilón": "630 a. C"
+    },
+    {
+      "Leyes de Dracón": "621 a. C"
+    },
+    {
+      "Arcontado de Solón": "594-560 a. C"
+    },
+    {
+      "Tiranía de Pisístrato": "560-527 a. C"
+    },
+    {
+      "Tiranía de Hipias e Hiparco": "527-510 a. C"
+    },
+    {
+      "Arcontado de Clístenes": "509-508 a. C"
+    }
+  ]
+}
