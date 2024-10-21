@@ -3062,6 +3062,7 @@
                id="path2219"
                style="fill:#b9c191" />
           </g>
+
           <g
              id="g2221">
             <path
@@ -14081,6 +14082,35 @@
 
 
     <!-- Añadido por mi -->
+    <g
+       id="g2080"
+       transform="translate(0.346271,0.369701)"> <!-- Añade Delfos de nuevo -->
+      <polygon
+         style="fill:#fff200;stroke:black"
+         id="polygon2082"
+         points="402.755,435.034 397.729,431.32 392.643,434.952 394.622,429.024 389.596,425.31 395.846,425.36 397.825,419.433 399.708,425.392 405.958,425.442 400.872,429.075 402.755,435.034 " />
+      <circle
+         style="fill:none;stroke:black"
+         sodipodi:ry="10"
+         sodipodi:rx="10"
+         sodipodi:cy="427.233"
+         sodipodi:cx="397.77701"
+         id="circle2084"
+         r="10"
+         cy="427.233"
+         cx="397.77701" />
+      <polygon
+         style="fill:none;stroke:black"
+         id="polygon2086"
+         points="404.61,438.733 391.234,438.901 384.401,427.401 390.943,415.733 404.319,415.565 411.153,427.065 404.61,438.733 " />
+    </g>
+        <text
+       style="font-size:12px;font-family:Myriad-Roman"
+       id="text1912"
+       font-size="12"
+       x="379.18219"
+       y="452.51892">Delfos</text>
+
     <circle id="circle_Micenas" r="3" cy="511.010159844519" cx="408.798347006001" fill='blue'/>
 <g  id="g_Micenas"
     transform="translate(0.3,0.3)">
