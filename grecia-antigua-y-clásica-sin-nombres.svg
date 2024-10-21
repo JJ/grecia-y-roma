@@ -14012,29 +14012,33 @@
        transform="translate(0.346271,0.369701)" />
 
     <!-- Añadido por mi -->
+    <g
+       id="g2080"
+       transform="translate(0.346271,0.369701)"> <!-- Añade Delfos de nuevo -->
+      <polygon
+         style="fill:#fff200;stroke:black"
+         id="polygon2082"
+         points="402.755,435.034 397.729,431.32 392.643,434.952 394.622,429.024 389.596,425.31 395.846,425.36 397.825,419.433 399.708,425.392 405.958,425.442 400.872,429.075 402.755,435.034 " />
+    </g>
+
+    <circle id="circle_Filipópolis" r="3" cy="20" cx="600.14601672638"/>
     <circle id="circle_Micenas" r="3" cy="511.010159844519" cx="408.798347006001" fill='blue'/>
 
+    <circle id="circle_Maratón" r="3" cy="456.36238302496" cx="526.156794149125" fill="red"/>
 
-<circle id="circle_Maratón" r="3" cy="456.36238302496" cx="526.156794149125" fill="red"/>
+    <circle id="circle_Cnosos" r="3" cy="720" cx="690" fill="blue"/>
 
-<circle id="circle_Cnosos" r="3" cy="720" cx="690" fill="blue"/>
+    <circle id="circle_Platea" r="3" cy="439.152742852543" cx="462.751246321185" fill="red"/>
 
-<circle id="circle_Platea" r="3" cy="439.152742852543" cx="462.751246321185" fill="red"/>
+    <circle id="circle_Lesbos" r="4" cy="290" cx="690" fill="purple" stroke='purple'/>
 
+    <circle id="circle_Mitilene" r="3" cy="303" cx="715"/>
 
-<circle id="circle_Lesbos" r="4" cy="290" cx="690" fill="purple" stroke='purple'/>
+    <circle id="circle_Megara" r="3" cy="473.743069611216" cx="465.084546053621"/>
 
+    <circle id="circle_Eretria" r="3" cy="416.435464605527" cx="509.244403952696"/>
 
-<circle id="circle_Mitilene" r="3" cy="303" cx="715"/>
-
-
-<circle id="circle_Megara" r="3" cy="473.743069611216" cx="465.084546053621"/>
-
-
-<circle id="circle_Eretria" r="3" cy="416.435464605527" cx="509.244403952696"/>
-
-
-<circle id="circle_Thera" r="3" cy="600" cx="687" fill="purple"/>
+    <circle id="circle_Thera" r="3" cy="600" cx="687" fill="purple"/>
 
 
     <!-- Final añadido por mi -->
