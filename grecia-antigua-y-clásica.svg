@@ -14111,6 +14111,18 @@
        x="379.18219"
        y="452.51892">Delfos</text>
 
+        <circle id="circle_Filipópolis" r="3" cy="20" cx="600.14601672638"/>
+        <g  id="g_Filipópolis"
+            transform="translate(6,-10)">
+          <text
+              style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
+              id="textFilipópolis"
+              font-size="12"
+              x="600.14601672638"
+              y="20">Filipópolis</text>
+        </g>
+
+        
     <circle id="circle_Micenas" r="3" cy="511.010159844519" cx="408.798347006001" fill='blue'/>
 <g  id="g_Micenas"
     transform="translate(0.3,0.3)">
