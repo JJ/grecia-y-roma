@@ -134,6 +134,12 @@
                     child.classList.add('correct');
                     child.innerText = `${periods[index].Nombre} - Fechas: ${periods[index].Fechas}`;
                 });
+                // change the "Verificar Orden" button to a "Jugar de Nuevo" button and add code to reset the game
+                document.getElementById('check-order').innerText = 'Jugar de Nuevo';
+                document.getElementById('check-order').addEventListener('click', () => {
+                    renderPeriods();
+                    document.getElementById('check-order').innerText = 'Verificar Orden';
+                });
             } else {
                 alert('El orden es incorrecto. Inténtalo de nuevo.');
             }
