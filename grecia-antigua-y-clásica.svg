@@ -14082,6 +14082,17 @@
 
 
     <!-- Añadido por mi -->
+    <circle id="circle_Corcira" r="3" cy="355" cx="154"/>
+<g  id="g_Corcira"
+    transform="translate(0.3,0.3)">
+    <text
+       style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
+       id="textCorcira"
+       font-size="12"
+       x="156"
+       y="355">Corcira</text>
+</g>
+
     <g
        id="g2080"
        transform="translate(0.346271,0.369701)"> <!-- Añade Delfos de nuevo -->
