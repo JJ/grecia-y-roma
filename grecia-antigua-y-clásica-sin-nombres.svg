@@ -14012,7 +14012,8 @@
        transform="translate(0.346271,0.369701)" />
 
     <!-- Añadido por mi -->
-        <circle id="circle_Quíos" r="3" cy="400" cx="695" fill='purple'/>
+    <circle id="circle_Anfípolis" r="3" cy="170" cx="462"/>
+    <circle id="circle_Quíos" r="3" cy="400" cx="695" fill='purple'/>
     <circle id="circle_Corcira" r="3" cy="355" cx="154"/>
     <g
        id="g2080"
@@ -14023,7 +14024,6 @@
          points="402.755,435.034 397.729,431.32 392.643,434.952 394.622,429.024 389.596,425.31 395.846,425.36 397.825,419.433 399.708,425.392 405.958,425.442 400.872,429.075 402.755,435.034 " />
     </g>
 
-    <circle id="circle_Filipópolis" r="3" cy="20" cx="600.14601672638"/>
     <circle id="circle_Micenas" r="3" cy="511.010159844519" cx="408.798347006001" fill='blue'/>
 
     <circle id="circle_Maratón" r="3" cy="456.36238302496" cx="526.156794149125" fill="red"/>

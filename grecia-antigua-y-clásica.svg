@@ -14082,6 +14082,16 @@
 
 
     <!-- Añadido por mi -->
+    <circle id="circle_Anfípolis" r="3" cy="170" cx="462"/>
+<g  id="g_Anfípolis">
+    <text
+       style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
+       id="textAnfípolis"
+       font-size="12"
+       x="466"
+       y="170">Anfípolis</text>
+</g>
+
     <circle id="circle_Quíos" r="3" cy="400" cx="695" fill='purple'/>
 <g  id="g_Quíos">
     <text
@@ -14131,17 +14141,6 @@
        font-size="12"
        x="379.18219"
        y="452.51892">Delfos</text>
-
-        <circle id="circle_Filipópolis" r="3" cy="20" cx="600.14601672638"/>
-        <g  id="g_Filipópolis"
-            transform="translate(6,-10)">
-          <text
-              style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
-              id="textFilipópolis"
-              font-size="12"
-              x="600.14601672638"
-              y="20">Filipópolis</text>
-        </g>
 
     <circle id="circle_Micenas" r="3" cy="511.010159844519" cx="408.798347006001" fill='blue'/>
 <g  id="g_Micenas"
