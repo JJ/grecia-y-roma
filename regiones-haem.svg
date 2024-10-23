@@ -36,7 +36,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35274718"
-     inkscape:cx="733.81466"
+     inkscape:cx="84.624495"
      inkscape:cy="892.99084"
      inkscape:document-units="px"
      inkscape:current-layer="g2375"
@@ -60,7 +60,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2000,5 +2000,26 @@
          id="tspan685"
          x="1068.3169"
          y="-4.9342675">Peloponeso</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="2074.5938"
+       y="-1083.9532"
+       id="text413"><tspan
+         sodipodi:role="line"
+         id="tspan411"
+         x="2074.5938"
+         y="-1083.9532">Helesponto</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="1822.3981"
+       y="-277.08389"
+       id="text417"><tspan
+         sodipodi:role="line"
+         id="tspan415"
+         x="1822.3981"
+         y="-277.08389"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.33333588px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans'">Mar Egeo</tspan></text>
   </g>
 </svg>
