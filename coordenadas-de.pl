@@ -5,27 +5,23 @@ use warnings;
 
 use v5.16;
 
-my $Dodona_E = 20.787778;
-my $Dodona_x = 219.7979;
-my $Rodas_E = 28.216667;
-my $Rodas_x = 933.12402;
-my $pixels_por_grado_x = ($Rodas_x - $Dodona_x)/($Rodas_E - $Dodona_E);
+my $Olisipo_W = -9.133973;
+my $Olisipo_x = 219.7979;
+my $Singidunum_E = 20.46;
+my $Singidunum_x = 1171.4069;
+my $pixels_por_grado_x = ($Singidunum_x - $Olisipo_x)/($Singidunum_E - $Olisipo_W);
 
+my $Lindum_N = 41.013417;
+my $Lindum_y = 455.08661;
+my $Leptis_N = 32.639167;
+my $Leptis_y = 1544.0938;
 
-my $Bizancio_N = 41.013417;
-my $Bizancio_y = 47.747601;
-my $Esparta_N = 37.081944;
-my $Esparta_y = 602.58618;
-
-my $pixels_por_grado_y = ($Esparta_y - $Bizancio_y)/($Bizancio_N - $Esparta_N);
-
-
-
+my $pixels_por_grado_y = ($Lindum_y - $Leptis_y)/($Leptis_N - $Lindum_N);
 
 my ($N, $E, $nombre ) = @ARGV;
 
-my $x = $Dodona_x + ($E - $Dodona_E)*$pixels_por_grado_x;
-my $y = $Bizancio_y + ($Bizancio_N - $N)*$pixels_por_grado_y;
+my $x = $Olisipo_x + ($E - $Olisipo_W)*$pixels_por_grado_x;
+my $y = $Lindum_y + ($Lindum_N - $N)*$pixels_por_grado_y;
 
 say <<EOC;
 <circle id="circle_$nombre" r="3" cy="$y" cx="$x"/>

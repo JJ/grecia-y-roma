@@ -2228,6 +2228,22 @@
        cy="1635.0028"
        r="3.940907" />
   </g>
+
+  
+  <!-- Añadidos míos -->
+  <circle id="circle_Veii" r="3" cy="323.754755171682" cx="911.903075444169"/>
+<g  id="g_Veii"
+    transform="translate(0.3,0.3)">
+    <text
+       style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
+       id="textVeii"
+       font-size="12"
+       x="911.903075444169"
+       y="323.754755171682">Veii</text>
+</g>
+
+<!-- Fin añadidos -->
+
   <text
      xml:space="preserve"
      style="color:#000000;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:Arial;-inkscape-font-specification:'Arial, Bold';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;enable-background:accumulate"
