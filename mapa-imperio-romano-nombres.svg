@@ -2231,7 +2231,7 @@
 
   
   <!-- Añadidos míos -->
-  <circle id="circle_Veii" r="3" cy="323.754755171682" cx="911.903075444169"/>
+<circle id="circle_Veii" r="3" cy="536.632712538706" cx="911.903075444169"/>
 <g  id="g_Veii"
     transform="translate(0.3,0.3)">
     <text
@@ -2239,8 +2239,9 @@
        id="textVeii"
        font-size="12"
        x="911.903075444169"
-       y="323.754755171682">Veii</text>
+       y="536.632712538706">Veii</text>
 </g>
+
 
 <!-- Fin añadidos -->
 

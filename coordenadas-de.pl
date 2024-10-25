@@ -11,17 +11,17 @@ my $Singidunum_E = 20.46;
 my $Singidunum_x = 1171.4069;
 my $pixels_por_grado_x = ($Singidunum_x - $Olisipo_x)/($Singidunum_E - $Olisipo_W);
 
-my $Lindum_N = 41.013417;
-my $Lindum_y = 455.08661;
+my $Tarraco_N = 41.116389;
+my $Tarraco_y = 634;
 my $Leptis_N = 32.639167;
 my $Leptis_y = 1544.0938;
 
-my $pixels_por_grado_y = ($Lindum_y - $Leptis_y)/($Leptis_N - $Lindum_N);
+my $pixels_por_grado_y = ($Leptis_y - $Tarraco_y)/($Tarraco_N - $Leptis_N);
 
 my ($N, $E, $nombre ) = @ARGV;
 
 my $x = $Olisipo_x + ($E - $Olisipo_W)*$pixels_por_grado_x;
-my $y = $Lindum_y + ($Lindum_N - $N)*$pixels_por_grado_y;
+my $y = $Tarraco_y + ($Tarraco_N - $N)*$pixels_por_grado_y;
 
 say <<EOC;
 <circle id="circle_$nombre" r="3" cy="$y" cx="$x"/>
