@@ -2231,15 +2231,15 @@
 
   
   <!-- Añadidos míos -->
-<circle id="circle_Veii" r="3" cy="536.632712538706" cx="911.903075444169"/>
+<circle id="circle_Veii" r="3" cy="635" cx="896"/>
 <g  id="g_Veii"
     transform="translate(0.3,0.3)">
     <text
        style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
        id="textVeii"
        font-size="12"
-       x="911.903075444169"
-       y="536.632712538706">Veii</text>
+       x="900"
+       y="630">Veii</text>
 </g>
 
 
