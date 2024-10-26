@@ -2330,7 +2330,16 @@
        y="720">Pompeya</text>
 </g>
 
-
+<circle id="circle_Carteia" r="3" cy="790" cx="190"/>
+<g  id="g_Carteia"
+    transform="translate(0.3,0.3)">
+    <text
+       style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
+       id="textCarteia"
+       font-size="12"
+       x="195"
+       y="790">Carteia</text>
+</g>
 
 <!-- Fin añadidos -->
 
