@@ -2297,6 +2297,17 @@
        y="550">Numancia</text>
 </g>
 
+<circle id="circle_Sagunto" r="3" cy="674" cx="425"/>
+<g  id="g_Sagunto"
+    transform="translate(0.3,0.3)">
+    <text
+       style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
+       id="textSagunto"
+       font-size="12"
+       x="430"
+       y="674">Sagunto</text>
+</g>
+
 <!-- Fin añadidos -->
 
   <text
