@@ -2249,10 +2249,31 @@
        style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
        id="textVeii"
        font-size="12"
-       x="932"
+       x="925"
        y="657">Alba Longa</text>
 </g>
 
+<circle id="circle_Lavinium" r="3" cy="665" cx="915"/>
+<g  id="g_Lavinium"
+    transform="translate(0.3,0.3)">
+    <text
+       style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
+       id="textLavinium"
+       font-size="12"
+       x="920"
+       y="670">Lavinium</text>
+</g>
+
+<circle id="circle_Emporiae" r="3" cy="590" cx="575"/>
+<g  id="g_Emporiae"
+    transform="translate(0.3,0.3)">
+    <text
+       style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
+       id="textEmporiae"
+       font-size="12"
+       x="520"
+       y="590">Emporiae</text>
+</g>
 
 <!-- Fin añadidos -->
 
