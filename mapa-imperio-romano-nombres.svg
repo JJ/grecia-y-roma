@@ -2242,6 +2242,17 @@
        y="630">Veii</text>
 </g>
 
+<circle id="circle_AlbaLonga" r="3" cy="657" cx="922"/>
+<g  id="g_AlbaLonga"
+    transform="translate(0.3,0.3)">
+    <text
+       style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
+       id="textVeii"
+       font-size="12"
+       x="932"
+       y="657">Alba Longa</text>
+</g>
+
 
 <!-- Fin añadidos -->
 
