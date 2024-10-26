@@ -2275,6 +2275,18 @@
        y="590">Emporiae</text>
 </g>
 
+<circle id="circle_Munda" r="3" cy="750" cx="200"/>
+<g  id="g_Munda"
+    transform="translate(0.3,0.3)">
+    <text
+       style="font-size:12px;line-height:0%;font-family:Myriad-Roman"
+       id="textMunda"
+       font-size="12"
+       x="210"
+       y="750">Munda</text>
+</g>
+
+
 <!-- Fin añadidos -->
 
   <text
