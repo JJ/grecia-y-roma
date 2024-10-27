@@ -1,0 +1,26 @@
+[
+    {
+        "Periodo": "MONARQUÍA ROMANA",
+        "Fechas": "753-509 a. C."
+    },
+    {
+        "Periodo": "REPÚBLICA ROMANA",
+        "Fechas": "509-27 a. C."
+    },
+    {
+        "Periodo": "GUERRAS CIVILES Y FIN DE LA REPÚBLICA",
+        "Fechas": "79-27 a. C."
+    },
+    {
+        "Periodo": "ALTO IMPERIO",
+        "Fechas": "27 a. C-192 d. C"
+    },
+    {
+        "Periodo": "BAJO IMPERIO",
+        "Fechas": "193-312 d. C"
+    },
+    {
+        "Periodo": "IMPERIO CRISTIANO",
+        "Fechas": "312-476 d. C."
+    }
+]

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego cronograma periodos romanos</title>
+    <script src="DragDropTouch.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .period {
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            cursor: grab;
+        }
+        .correct {
+            background-color: #c8e6c9;
+        }
+    </style>
+</head>
+<body>
+    <script type="application/json" id="cronograma-data">
+        [
+    {
+        "Nombre": "MONARQUÍA ROMANA",
+        "Fechas": "753-509 a. C."
+    },
+    {
+        "Nombre": "REPÚBLICA ROMANA",
+        "Fechas": "509-27 a. C."
+    },
+    {
+        "Nombre": "GUERRAS CIVILES Y FIN DE LA REPÚBLICA",
+        "Fechas": "79-27 a. C."
+    },
+    {
+        "Nombre": "ALTO IMPERIO",
+        "Fechas": "27 a. C-192 d. C"
+    },
+    {
+        "Nombre": "BAJO IMPERIO",
+        "Fechas": "193-312 d. C"
+    },
+    {
+        "Nombre": "IMPERIO CRISTIANO",
+        "Fechas": "312-476 d. C."
+    }
+]</script>
+
+    <h1>Ordena los periodos de Roma</h1>
+    <div id="game-container"></div>
+    <button id="check-order">Verificar orden</button>
+
+    <script>
+        let periods = [];
+
+        window.addEventListener('DOMContentLoaded', () => {
+            const data = document.getElementById('cronograma-data');
+            periods = JSON.parse(data.textContent);
+            renderPeriods();
+        });
+
+        function renderPeriods() {
+            const container = document.getElementById('game-container');
+            container.innerHTML = '';
+            const shuffledPeriods = [...periods].sort(() => Math.random() - 0.5);
+            shuffledPeriods.forEach((period, index) => {
+                const div = document.createElement('div');
+                div.className = 'period';
+                div.draggable = true;
+                div.dataset.index = index;
+                div.innerText = period.Nombre;
+                container.appendChild(div);
+            });
+            addDragAndDrop();
+        }
+
+        function addDragAndDrop() {
+            const periods = document.querySelectorAll('.period');
+            periods.forEach(period => {
+                period.addEventListener('dragstart', handleDragStart);
+                period.addEventListener('dragover', handleDragOver);
+                period.addEventListener('drop', handleDrop);
+            });
+        }
+
+        let draggedElement = null;
+
+        function handleDragStart(event) {
+            draggedElement = event.target;
+            event.dataTransfer.effectAllowed = 'move';
+        }
+
+        function handleDragOver(event) {
+            event.preventDefault();
+            event.dataTransfer.dropEffect = 'move';
+        }
+
+        function handleDrop(event) {
+            event.preventDefault();
+            if (event.target.className.includes('period')) {
+                const container = document.getElementById('game-container');
+                const children = Array.from(container.children);
+                const draggedIndex = children.indexOf(draggedElement);
+                const targetIndex = children.indexOf(event.target);
+
+                if (draggedIndex < targetIndex) {
+                    container.insertBefore(draggedElement, event.target.nextSibling);
+                } else {
+                    container.insertBefore(draggedElement, event.target);
+                }
+            }
+        }
+
+        function handleClick() {
+
+            const container = document.getElementById('game-container');
+            const children = Array.from(container.children);
+            let correct = true;
+
+            children.forEach((child, index) => {
+                if (periods[index].Nombre !== child.innerText) {
+                    correct = false;
+                }
+            });
+
+            if (correct) {
+                children.forEach((child, index) => {
+                    child.classList.add('correct');
+                    child.innerText = `${periods[index].Nombre} - Fechas: ${periods[index].Fechas}`;
+                });
+                document.getElementById('check-order').innerText = 'Jugar de Nuevo';
+                document.getElementById('check-order').removeEventListener('click', handleClick );
+                document.getElementById('check-order').addEventListener('click', () => {
+                    console.log("Jugar de nuevo");
+                    renderPeriods();
+                    document.getElementById('check-order').innerText = 'Verificar Orden';
+                    document.getElementById('check-order').addEventListener('click', handleClick );
+                });
+            } else {
+                alert('El orden es incorrecto. Inténtalo de nuevo.');
+            }
+        }
+
+        document.getElementById('check-order').addEventListener('click', handleClick );
+    </script>
+</body>
+</html>
