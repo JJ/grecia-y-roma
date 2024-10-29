@@ -2107,4 +2107,50 @@
        x="876.69165"
        y="639.87366"
        style="fill:#008000">Tíber</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="816.2301"
+     y="500.27872"
+     id="text420"><tspan
+       sodipodi:role="line"
+       id="tspan418"
+       x="816.2301"
+       y="500.27872"
+       style="fill:#008000">Po</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="1098.5747"
+     y="-214.35692"
+     id="text424"
+     transform="rotate(41.337799)"><tspan
+       sodipodi:role="line"
+       id="tspan422"
+       x="1098.5747"
+       y="-214.35692"
+       style="fill:#0000ff">Adriático</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="1067.9834"
+     y="-52.20422"
+     id="text428"
+     transform="rotate(42.657127)"><tspan
+       sodipodi:role="line"
+       id="tspan426"
+       x="1067.9834"
+       y="-52.20422"
+       style="fill:#0000ff">Tirreno</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="908.70068"
+     y="871.04993"
+     id="text432"><tspan
+       sodipodi:role="line"
+       id="tspan430"
+       x="908.70068"
+       y="871.04993"
+       style="fill:#a05a2c">Sicilia</tspan></text>
 </svg>
