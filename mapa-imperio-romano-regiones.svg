@@ -2305,21 +2305,21 @@
        style="font-size:18.66666603px;fill:#ff0000">Cisalpina</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-     x="40.502659"
-     y="747.01245"
+     style="font-style:normal;font-weight:normal;font-size:29.25082207px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.73127055"
+     x="310.97775"
+     y="610.39886"
      id="text520"
-     transform="rotate(-42.609582)"><tspan
+     transform="matrix(0.99550395,-0.18624994,0.33497235,0.94184601,0,0)"><tspan
        sodipodi:role="line"
        id="tspan518"
-       x="40.502659"
-       y="747.01245"
-       style="fill:#ff0000">Galia</tspan><tspan
+       x="310.97775"
+       y="610.39886"
+       style="fill:#ff0000;stroke-width:0.73127055">Galia</tspan><tspan
        sodipodi:role="line"
-       x="40.502659"
-       y="797.01245"
+       x="310.97775"
+       y="646.9624"
        id="tspan522"
-       style="fill:#0000ff">Narbonensis</tspan></text>
+       style="fill:#0000ff;stroke-width:0.73127055">Narbonensis</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:49.79824448px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.24495614"
